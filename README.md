@@ -1,4 +1,4 @@
-# Hackathon
+# Hackathon 🔐
 by Lalaine and Carson
 
 ## Getting Started
