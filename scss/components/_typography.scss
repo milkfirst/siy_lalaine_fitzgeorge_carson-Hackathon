@@ -1,15 +1,15 @@
-@use '../custom';
+@use '../custom' as *;
 
-.display-1 {
+.display-2  {
     margin-bottom: 1rem;
     text-transform: capitalize;
 
-    &--intro {
+    &--intro    {
         display: inline-block;
         font-weight: 700;
     }
 
-    &--description {
+    &--description  {
         font-size: 1rem;
         display: block;
     }
