@@ -8,12 +8,12 @@
     <link rel="stylesheet" href="assets/css/style.css">
     <link rel="stylesheet" href="assets/css/fontawesome.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
 </head>
 <body>
     <!-- START of Nav Bar -->
-    <nav class="navbar navbar-expand-lg bg-secondary">
+    <nav class="navbar navbar-expand-lg bg-secondary shadow fixed-top">
         <div class="container">
             <!-- MINI LOGO GOES HERE -->
             <a class="navbar-brand" href="#">
@@ -71,18 +71,38 @@
     
     <!-- END of Nav Bar -->
 
+        <!-- I CAN'T FIGURE OUT HOW TO MOVE THE INTRO SECTION DOWN SO HERE IS MY FAKE WHITE BOX -->
+        <section id="companies" class="companies">
+          <div class="container">
+            <div class="row pt-2 pb-2 mt-5 mb-3 text-center">
+            <div class="bg-white p-3">
+              <h4 class="fw-bold lead mb-3"></h4>
+              
+            </div>
+            </div>
+          </div>
+        </section>
+        <!-- END OF FAKE WHITE BOX -->
 
     <!-- START of Intro Section -->
-    <section id="home" class="intro-section">
+    <section id="inr" class="intro-section">
       <div class="container">
-        <div class="row align-items-center">
-          <div class="col-lg-4-intros">
+        <div class="row align-items-center"> <!-- why won't this work ? -->
+          <div class="col-lg-4-intros text-start">
             <h1 class="display-2">
               <span class="display-2--intro">Advanced thermostats</span>
               <span class="display-2--description">Our advanced thermostats for your smart home. Live in comfort and style.</span>
             </h1>
+            <button type="button" class="rounded-pill btn-rounded">
+              <span>
+                <i class="fa-solid fa-arrow-right">About Us</i>
+              </span>
+            </button>
           </div>
-          <div class="col-md-6-intros"></div>
+          <!-- image -->
+          <div class="col-md-6-intros">
+            <img src="images/display-1.png" alt="intro illustration" class="img-fluid">
+          </div>
         </div>
       </div>
     </section>
@@ -189,15 +209,13 @@
   </section>
     <!-- END OF PRODUCTS-->
 
+
     <!-- START OF FEATURES SECTION-->
     <section class="features" id="features">
       <div class="container">
-        <div class="row">
+        <div class="row col-lg-6 col-md-6 col-sm-12 col-xs-12 features mt-4">
           <h1 class="display-3 fw-bold">Features</h1>
-          <!-- FIX ME 
-          <a class="navbar-brand" href="#">
-            <img src="images/sample.jpg" alt="sample image">
-        </a> -->
+          <img src="images/display-5.png" alt="intro illustration" class="img-fluid">
         </div>
         <!-- ACCORDION CONTENT -->
         <div class="row mt-5 justify-content-end">
@@ -235,11 +253,11 @@
               </div>
               <div class="accordion-item">
                 <h2 class="accordion-header" id="flush-headingFour">
-                  <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-Four" aria-expanded="false" aria-controls="flush-collapseFour">
+                  <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseFour" aria-expanded="false" aria-controls="flush-collapseFour">
                     <strong>Useful Notifications</strong>
                   </button>
                 </h2>
-                <div id="flush-collapseFour" class="accordion-collapse collapse" aria-labelledby="flush-headingThree" data-bs-parent="#accordionFlushExample">
+                <div id="flush-collapseFour" class="accordion-collapse collapse" aria-labelledby="flush-headingFour" data-bs-parent="#accordionFlushExample">
                   <div class="accordion-body">Let's keep in touch! ThermoSecure has easy to use thermostat control from any device. Control you heating system before you get home!</div>
                 </div>
               </div>
@@ -250,6 +268,16 @@
     </section>
   <!-- END OF FEATURES SECTION-->
 
+
+<!-- FOOTER -->
+<footer class="footer">
+  <div class="container">
+    <h1 class="display-2">
+      <span class="display-2--intro">The Footer</span>
+      <span class="display-2--description">Do what you can, with what you have, where you are.” ―Theodore Roosevelt.</span>
+    </h1>
+  </div>
+</footer>
 
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-OERcA2EqjJCMA+/3y+gxIOqMEjwtxJY7qPCqsdltbNJuaOe923+mo//f6V8Qbsw3" crossorigin="anonymous"></script>
 </body>
