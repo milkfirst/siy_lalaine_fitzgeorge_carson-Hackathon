@@ -13,3 +13,21 @@ We tried our best! :D
 * [Bootstrap](https://getbootstrap.com/) - Bootstrap Framework 🥾
 * [SASS](https://sass-lang.com/) - SASS
 
+## Installing
+
+Open Terminal or Command Line
+
+```
+# Pick the location of where this repository will be downloaded, for example purposes this will be on your desktop
+
+$ cd Desktop https://github.com/milkfirst/siy_lalaine_fitzgeorge_carson-Hackathon.git
+
+# Clone this repository into your local machine
+
+$ git clone 
+
+# Go into the repository
+
+$ cd siy_lalaine_fitzgeorge_carson-Hackathon
+
+```
