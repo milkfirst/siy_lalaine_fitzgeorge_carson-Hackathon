@@ -14,7 +14,12 @@
     }
 
     &--description  {
-        font-size: 1rem;
+        font-size: 2rem;
         display: block;
+        text-transform: none;
     }
+}
+
+.display-3  {
+    font-family: 'Poppins', sans-serif;
 }
