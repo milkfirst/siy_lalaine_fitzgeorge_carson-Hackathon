@@ -9,4 +9,7 @@ We tried our best! :D
 * **Lalaine S aka LiL** - *Coder* and *Project Developer*
 * **Carson Fitzgeorge** - *Designer* and *Motion Graphics*
 
-## Installing
+## Built with
+* [Bootstrap](https://getbootstrap.com/) - Bootstrap Framework 🥾
+* [SASS](https://sass-lang.com/) - SASS
+
