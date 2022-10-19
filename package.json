@@ -1,0 +1,33 @@
+{
+  "name": "siy_lalaine_fitzgeorge_carson-hackathon",
+  "version": "1.0.0",
+  "description": "BootStrap v5 with SASS",
+  "main": "index.js",
+  "scripts": {
+    "compile:sass": "sass --watch scss:assets/css"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/milkfirst/siy_lalaine_fitzgeorge_carson-Hackathon.git"
+  },
+  "keywords": [
+    "Bootstrap",
+    "bootstrap-v5",
+    "sass"
+  ],
+  "author": "Lalaine Siy",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/milkfirst/siy_lalaine_fitzgeorge_carson-Hackathon/issues"
+  },
+  "homepage": "https://github.com/milkfirst/siy_lalaine_fitzgeorge_carson-Hackathon#readme",
+  "devDependencies": {
+    "sass": "^1.55.0"
+  },
+  "dependencies": {
+    "@fortawesome/fontawesome-free": "^6.2.0",
+    "autoprefixer": "^10.4.12",
+    "bootstrap": "^5.2.2",
+    "postcss-cli": "^10.0.0"
+  }
+}
